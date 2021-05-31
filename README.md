@@ -5,7 +5,7 @@ A discord rich presence, fully customisable
 **[Requirements](#requirements)**<br>
 **[Usage Instructions](#usage-instructions)**<br>
 **[Configuration Example](#discord-rich-presence-example)**<br>
-**[Errors](#common-errors)**<
+**[Errors](#common-errors)**
 
 ## Requirements
  - [NodeJS](https://nodejs.org/en/download/)
