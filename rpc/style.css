@@ -1,0 +1,95 @@
+body, html {
+  margin: 0px;
+  height: 100%;
+  cursor: default;
+  font-family: 'Arial';
+  -webkit-touch-callout: none;
+  -webkit-app-region: drag;
+}
+
+#emoji {
+  display: grid;
+  font-size: 350%;
+  margin: auto;
+  text-align: center;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.center, h2 {
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  text-decoration: underline
+}
+
+h6 {
+  margin-top: 20px!important;
+  margin-bottom: -17px!important
+}
+
+.low {
+  margin-top: -10px!important
+}
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-app-region: no-drag;
+  color: white
+}
+
+h6 {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.table>.item {
+  width: 50%!important;
+  float: left;
+}
+
+button {
+  display: inline-block;
+  background-color: #000000;
+  border-radius: 8px;
+  border: 4px double #ffffff;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #f7b3f3fd;
+}
+button:hover span {
+  padding-right: 25px;
+}
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
