@@ -1,0 +1,39 @@
+{
+    "clientId": "Developer Client Id Goes Here",
+    
+    "ElectronWindow": {
+        "backgroundColor": "Hex Colour",
+        "width": Number,
+        "height": Number,
+        "resizeable": true or false,
+        "titleBar": "default" or "hidden" or "hiddenInset" or "customButtonsOnHover",
+        "shadow": true or false,
+        "frame": true or false,
+        "show": true or false
+    },
+
+    "rich_presence": {
+        "details": "First line of rich presence",
+        "state": "Second line of rich presence",
+        "assets": {
+            "largeImageText": "Text of the big image",
+            "largeImageKey": "Large image key",
+            "smallImageText": "Text of the small image",
+            "smallImageKey": "Small image key"
+        },
+        "buttons": {
+            "primary": {
+                "buttonLabelText": "Text of first button",
+                "buttonRedirectUrl": "https://example.com"
+            },
+            "secondary": {
+                "buttonLabelText": "Text of second button",
+                "buttonRedirectUrl": "http://example.com"
+            }
+        },
+        "timestamps": {
+            "startTimestamp": "Time",
+            "useTimer": true or false
+        }
+    }
+}
