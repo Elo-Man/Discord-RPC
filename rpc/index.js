@@ -13,9 +13,10 @@ const LOG = chalk.hex('#44DDBF');
 const { app, BrowserWindow } = require("electron"); // Using the electron app
 const path = require("path"); // Path index.html
 const url = require("url"); // Load URL
+const moment = require("moment"); // Moment
+const parse = require("parse-duration"); // Parse
 const ElectronConfig = config.ElectronWindow; // Electron Window Config
-const moment = require("moment");
-const parse = require("parse-duration")
+
 var mainWindow; // Electron window
 
 let start = new Date(); // Record when code starts
