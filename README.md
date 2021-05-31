@@ -1,6 +1,5 @@
 # Discord-RPC
-A discord rich presence, fully customisable.
-Includes detail, state, assets, buttons and timestamps. Uses electron as a rich presence manager.
+A discord rich presence, fully customisable. <br> Includes detail, state, assets, buttons and timestamps. Uses electron as a rich presence manager.
 
 ### Table of Contents
 **[Requirements](#requirements)**<br>
