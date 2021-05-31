@@ -53,7 +53,7 @@ A discord rich presence, fully customisable
         }
     }
 }
-
+```
 ## Common Errors
 If you receive the `RPC_CONNECTION_TIMEOUT` error, please refresh Discord with `CTRL` + `R`, then try again.
-```
+All errors covered in `index.js` include character lengths and proper formatting.
