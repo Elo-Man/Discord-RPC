@@ -1,0 +1,23 @@
+{
+  "name": "discord-rpc",
+  "version": "1.0.0",
+  "main": "rpc/index.js",
+  "scripts": {
+    "rpc": "electron rpc/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daikou Wakako#0875",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord-rpc": "^3.2.0",
+    "@dnode/parse-duration": "^1.4.2",
+    "electron": "^12.0.5",
+    "moment": "^2.19.2",
+    "open": "7.0.3",
+    "parse-duration": "^0.1.1",
+    "node-fetch": "^2.6.1"
+  },
+  "description": "A discord rich presence, fully customisable",
+  "devDependencies": {},
+  "license": "ISC"
+}

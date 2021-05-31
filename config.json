@@ -1,0 +1,39 @@
+{
+    "clientId": "765494652698099713",
+    
+    "ElectronWindow": {
+        "backgroundColor": "#2c2f33",
+        "width": 520,
+        "height": 480,
+        "resizeable": true,
+        "titleBar": "default",
+        "shadow": true,
+        "frame": true,
+        "show": false
+    },
+
+    "rich_presence": {
+        "details": "Ven ze imposter iz suus",
+        "state": "AMOGUS ඞඞඞඞඞ",
+        "assets": {
+            "largeImageText": "This may be an AMOGUS reference",
+            "largeImageKey": "amogus",
+            "smallImageText": "Susy",
+            "smallImageKey": "sus-face"
+        },
+        "buttons": {
+            "primary": {
+                "buttonLabelText": "Free imposters 😳 \u200b",
+                "buttonRedirectUrl": "https://bit.ly/SussyImposters"
+            },
+            "secondary": {
+                "buttonLabelText": "Give me ur ip address",
+                "buttonRedirectUrl": "https://bit.ly/3uaLLuf"
+            }
+        },
+        "timestamps": {
+            "startTimestamp": "0hr",
+            "useTimer": true
+        }
+    }
+}

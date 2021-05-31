@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo Running Discord RPC:
+npm run rpc
+echo "Process was running for $SECONDS seconds"
