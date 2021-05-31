@@ -2,8 +2,14 @@
 A discord rich presence, fully customisable
 
 ### Table of Contents
+**[Requirements](#requirements)**<br>
 **[Usage Instructions](#usage-instructions)**<br>
-**[Configuration Example](#discord-rich-presence-example)**
+**[Configuration Example](#discord-rich-presence-example)**<br>
+**[Errors](#common-errors)**<
+
+## Requirements
+ - [NodeJS](https://nodejs.org/en/download/)
+ - [Discord Developer Application](https://discord.com/developers/applications)
 
 ## Usage Instructions
 1. Download and install [NodeJS](https://nodejs.org/en/download/).
@@ -47,4 +53,7 @@ A discord rich presence, fully customisable
         }
     }
 }
+
+## Common Errors
+If you receive the `RPC_CONNECTION_TIMEOUT` error, please refresh Discord with `CTRL` + `R`, then try again.
 ```
