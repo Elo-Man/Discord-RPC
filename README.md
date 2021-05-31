@@ -1,5 +1,5 @@
 # Discord-RPC
-A discord rich presence, fully customisable. <br> Includes detail, state, assets, buttons and timestamps. Uses electron as a rich presence manager.
+A discord rich presence, fully customisable.<br>Includes detail, state, assets, buttons and timestamps. Uses electron as a rich presence manager.
 
 ### Table of Contents
 **[Requirements](#requirements)**<br>
@@ -55,5 +55,5 @@ A discord rich presence, fully customisable. <br> Includes detail, state, assets
 }
 ```
 ## Common Errors
-If you receive the `RPC_CONNECTION_TIMEOUT` error, please refresh Discord with `CTRL` + `R`, then try again.
+If you receive the `RPC_CONNECTION_TIMEOUT` error, please refresh Discord with `CTRL` + `R`, then try again.<br>
 All errors covered in `index.js` include character lengths and proper formatting.
